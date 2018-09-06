@@ -4,7 +4,12 @@ import { Component, OnInit } from '@angular/core';
   selector: 'app-header',
   template: `<h1>Displayed using template property.</h1>
               <p>Its been written over multiple lines.</p>`,
-  styleUrls: ['./header.component.css']
+  styles: [`
+  
+  p { font-weight: bold; }
+  h1 { color: red; }
+  
+  `]
 })
 export class HeaderComponent implements OnInit {
 
