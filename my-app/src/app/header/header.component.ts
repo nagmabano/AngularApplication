@@ -9,7 +9,7 @@ export class HeaderComponent {
 
   message: string = "Interpolation message!!!!";
   title: string = "Property Binding";
-
+  
 }
 
 
