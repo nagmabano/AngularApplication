@@ -2,16 +2,12 @@ import { Component, OnInit } from '@angular/core';
 
 @Component({
   selector: 'app-header',
-  template: `<h1>Displayed using template property.</h1>
-              <p>Its been written over multiple lines.</p>`,
-  styles: [`
-  
-  p { font-weight: bold; }
-  h1 { color: red; }
-  
-  `]
+  templateUrl: './header.component.html',
+  styleUrls: ['./header.component.css']
 })
 export class HeaderComponent implements OnInit {
+
+  message: string = "Interpolation message!!!!"
 
   constructor() { }
 
@@ -19,3 +15,5 @@ export class HeaderComponent implements OnInit {
   }
 
 }
+
+
