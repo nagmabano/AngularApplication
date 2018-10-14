@@ -10,6 +10,7 @@ export class HeaderComponent {
   message: string = "Interpolation message!!!!";
   title: string = "Property Binding";
   clickMessage: string = "";
+  title1: string = "Two-way data binding";
 
   onClick(){
     this.clickMessage = "Event Binding";
