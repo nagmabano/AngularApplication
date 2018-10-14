@@ -5,14 +5,10 @@ import { Component, OnInit } from '@angular/core';
   templateUrl: './header.component.html',
   styleUrls: ['./header.component.css']
 })
-export class HeaderComponent implements OnInit {
+export class HeaderComponent {
 
-  message: string = "Interpolation message!!!!"
-
-  constructor() { }
-
-  ngOnInit() {
-  }
+  message: string = "Interpolation message!!!!";
+  title: string = "Property Binding";
 
 }
 
