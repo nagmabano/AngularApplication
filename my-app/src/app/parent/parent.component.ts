@@ -7,8 +7,14 @@ import { Component } from '@angular/core';
 })
 export class ParentComponent {
 
+  message:string;
+
   constructor() { }
 
   parentMessage = "message from parent component to child component";
+
+  getMessage($event){
+    this.message = $event;
+  }
 
 }
